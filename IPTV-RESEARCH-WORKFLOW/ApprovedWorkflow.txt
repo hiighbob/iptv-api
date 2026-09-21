@@ -1,0 +1,31 @@
+IPTV Anti-Piracy Detection Research Workflow
+Approved: 2026-09-21
+Total Steps: 4
+
+--- Workflow Overview ---
+This workflow manages multi-turn IPTV research with GitHub persistence.
+Each Step focuses on a specific stream type (Xtream Code, MAG/Stalker, etc.).
+Each Step may require multiple Turns (4-8 recommended per consolidation).
+
+--- Step Structure ---
+- Step 1: Xtream Code (Foundation + Restreaming + Cloning + Brute Force)
+- Step 2: MAG/Stalker (Ministra)
+- Step 3: Active Code
+- Step 4: M3U/HTTP
+
+--- Current Progress ---
+Step 1: IN PROGRESS (Turns 1-2 completed, Turn 3 pending)
+Step 2: NOT STARTED
+Step 3: NOT STARTED
+Step 4: NOT STARTED
+
+--- Information Integrity Rules ---
+- Atomic Updates: Each turn's output is added or corrected, never deleted
+- Verbatim Preservation: Previous content is kept exactly as-is
+- Additive Only: New information is appended or merged, never replaces
+- Correction Rule: Only modify what needs correction, preserve all else
+
+--- Context Management ---
+- Temporary files stored in GitHub under IPTV-RESEARCH-WORKFLOW/
+- NextStep.md contains only current step requirements
+- Context freed after every consolidation (every 4-8 turns)
